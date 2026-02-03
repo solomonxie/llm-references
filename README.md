@@ -1,4 +1,4 @@
-# llm-references
+# LLM References
 
 Personal reference notes for working with LLMs — prompt-engineering patterns, API/model behavior,
 and lessons learned across projects, kept separate from any one codebase so they're reusable.
