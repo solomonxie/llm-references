@@ -6,16 +6,6 @@ same loop through LangChain's abstractions; this is what those abstractions are 
 
 Each file is a complete, standalone, runnable script.
 
-| File | Demonstrates |
-|---|---|
-| `01_plain_chat_loop.py` | Multi-turn chat, raw HTTP, no tools -- the baseline every agent loop extends |
-| `02_function_schema_and_manual_dispatch.py` | Hand-rolled tool schema in the prompt, manually parsing/dispatching a JSON tool call |
-| `03_react_prompt_from_scratch.py` | The ReAct Thought/Action/Observation loop, via plain-text prompting |
-| `04_native_tool_calling_api.py` | The same tool, via Ollama's native `tools` field and `tool_calls`/`tool` message role |
-| `05_multi_tool_agent_loop.py` | Looping native tool calls -- multiple tools, until the model gives a final answer |
-| `06_error_handling_and_retries.py` | Malformed calls, unknown tools, exceptions -- fed back as observations, with a failure budget |
-| `07_memory_and_multi_turn.py` | Persisting conversation + tool history across separate top-level questions |
-
 ## Setup
 
 ```sh
