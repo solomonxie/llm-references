@@ -5,6 +5,7 @@
 # JSON-schema tool definition under the hood, and returns a parsed instance
 # of that model — no manual "please respond in JSON" prompt-wrangling or
 # regexing a fenced code block out of the response.
+# Step 4: with_structured_output(PydanticModel) -- typed data out, not prose
 
 from pydantic import BaseModel, Field
 

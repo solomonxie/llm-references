@@ -6,6 +6,7 @@
 # x through prompt.invoke(), pipes that output into llm.invoke(), and so on.
 # Every piece from step 2 (prompt templates, chat models) is a Runnable, so
 # they compose this way.
+# Step 3: LCEL: piping prompt | llm | output_parser into one composed Runnable
 
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate

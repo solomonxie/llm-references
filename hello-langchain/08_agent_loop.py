@@ -7,6 +7,7 @@
 # (Reason -> Act -> Observe, looped) written out by hand; hello-langgraph's
 # prebuilt agent (05_prebuilt_react_agent.py) is this exact loop, but as a
 # library call instead of a while loop you maintain yourself.
+# Step 8: The tool-calling loop from 06, run repeatedly until there's a final answer (ReAct)
 
 from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
 from langchain_core.tools import tool

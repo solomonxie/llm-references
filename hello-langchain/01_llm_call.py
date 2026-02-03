@@ -8,6 +8,7 @@
 #
 # Prerequisite: `ollama serve` running, with a model pulled, e.g.:
 #   ollama pull llama3.2:3b
+# Step 1: ChatOllama.invoke() -- the base chat-model interface every provider implements
 
 from langchain_ollama import ChatOllama
 

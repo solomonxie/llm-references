@@ -6,6 +6,7 @@
 # `.bind_tools()` makes the model *aware* of the tools; the model can then
 # request a call instead of answering directly. The model never executes
 # anything itself — it only asks; your code decides whether/how to comply.
+# Step 6: @tool + bind_tools() -- the model requests calls, your code executes them
 
 from langchain_core.messages import HumanMessage, ToolMessage
 from langchain_core.tools import tool

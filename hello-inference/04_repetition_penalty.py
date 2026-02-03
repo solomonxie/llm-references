@@ -6,6 +6,7 @@
 # said this" and can loop forever. Repetition penalty fixes this directly:
 # lower the logit of any token that already appeared in the generated text,
 # in proportion to a penalty factor, before picking the next one.
+# Step 4: Fixing greedy's repetition-loop failure mode
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer

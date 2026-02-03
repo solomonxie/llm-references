@@ -5,6 +5,7 @@
 # the graph-shaped equivalent of an if/elif/else. This is how a graph
 # implements a router: "classify the input, then send it down the matching
 # path."
+# Step 2: Branching -- routing to a different next node based on state
 
 from typing import TypedDict
 

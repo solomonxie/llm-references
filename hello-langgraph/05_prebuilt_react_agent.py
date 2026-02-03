@@ -8,6 +8,7 @@
 # hand-written while loop, packaged as one function call instead of code you
 # maintain yourself. Worth building the loop by hand once (as that file did)
 # so this isn't a black box.
+# Step 5: create_agent -- steps 3+4's loop-until-no-tool-calls, prebuilt
 
 from langchain.agents import create_agent
 from langchain_core.messages import HumanMessage

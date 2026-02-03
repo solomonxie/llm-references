@@ -6,6 +6,7 @@
 # itself changes: a node is still a function, state -> partial state update.
 #
 # Prerequisite: `ollama serve` running with `ollama pull llama3.2:3b`.
+# Step 4: A chat-model call as one node among plain-Python ones
 
 from typing import TypedDict
 

@@ -8,6 +8,7 @@
 #   - edges: which node runs after which
 # Compiling turns this into a runnable object; invoking it runs nodes in
 # order, threading the (evolving) state through each one.
+# Step 1: StateGraph: typed state, nodes as functions, edges -- no LLM involved
 
 from typing import TypedDict
 
