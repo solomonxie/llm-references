@@ -3,6 +3,7 @@
 # Goal: turn text into vectors. Every transformer starts here — a token is
 # just an integer id, and an embedding table is just a lookup from id -> a
 # learned vector. Nothing "attention"-related happens yet.
+# Step 1: Char-level tokenizer + nn.Embedding lookup
 
 import torch
 

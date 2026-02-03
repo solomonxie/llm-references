@@ -8,6 +8,7 @@
 # databases (Chroma, Pinecone, pgvector, FAISS) add an approximate-nearest-
 # neighbor index (e.g. HNSW) so that scan doesn't become the bottleneck at
 # millions of vectors, but the *interface* is identical at any scale.
+# Step 3: InMemoryVectorStore -- the general "k nearest vectors" interface
 
 from langchain_core.documents import Document
 from langchain_core.vectorstores import InMemoryVectorStore

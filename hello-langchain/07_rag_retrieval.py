@@ -12,6 +12,7 @@
 #     are closest to this query vector?" (here, an in-memory one — no
 #     external DB — real systems use Chroma/Pinecone/pgvector/etc. for
 #     anything beyond toy scale, but the retrieval *interface* is identical)
+# Step 7: Embeddings + an in-memory vector store -- grounding answers in your own docs
 
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate

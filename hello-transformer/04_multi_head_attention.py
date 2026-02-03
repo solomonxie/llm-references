@@ -5,6 +5,7 @@
 # results. One head might learn to track "what verb applies to me", another
 # "what's the previous token" — a single head has to compromise across all
 # of that in one attention pattern; multiple heads don't.
+# Step 4: Splitting Q/K/V across heads, running attention in parallel, concatenating back
 
 import math
 

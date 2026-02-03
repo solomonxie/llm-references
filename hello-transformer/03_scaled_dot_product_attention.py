@@ -5,6 +5,7 @@
 # ("what do I offer?"), and a Value ("what do I actually contribute?"). A
 # token's new representation is a weighted sum of every token's Value,
 # weighted by how well its Query matches each Key.
+# Step 3: softmax(QK^T / sqrt(d_k))V, single head, by hand
 
 import math
 

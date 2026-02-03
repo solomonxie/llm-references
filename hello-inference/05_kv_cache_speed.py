@@ -11,6 +11,7 @@
 # untrained weights — output quality isn't the point here, latency is) so
 # the caching logic is plain tensor ops under direct control, not hidden
 # inside a library's cache implementation.
+# Step 5: Why/how KV-caching speeds up decoding -- hand-built model + cache, benchmarked
 
 import math
 import time

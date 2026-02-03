@@ -9,6 +9,7 @@
 # asked to score relevance directly — a real production system would more
 # often use a dedicated cross-encoder model (smaller, cheaper per call than
 # a full chat model), but the two-stage SHAPE is identical either way.
+# Step 7: Cheap wide retrieval, then an LLM re-scores/re-sorts the candidates for precision
 
 from pydantic import BaseModel, Field
 

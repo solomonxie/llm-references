@@ -7,6 +7,7 @@
 # search hedges: keep the top `num_beams` candidate sequences (by total
 # log-probability) at every step, not just one, expanding all of them and
 # keeping only the best `num_beams` survivors each round.
+# Step 7: Keeping top-k candidate sequences by cumulative log-probability, not just the single best token
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
