@@ -11,6 +11,7 @@
 # Requires a checkpointer (step 6) — interrupt/resume works by suspending
 # and later restoring persisted state, the same mechanism that makes
 # multi-turn memory durable.
+# Step 7: interrupt() / Command(resume=...) -- pausing a graph for human approval, then continuing
 
 from typing import TypedDict
 

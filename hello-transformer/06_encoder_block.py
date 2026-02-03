@@ -5,6 +5,7 @@
 # also wrapped in Add & Norm — then stack N of them. This is the left half
 # of the original Transformer diagram (the right half, the decoder, is
 # step 7).
+# Step 6: One full encoder layer (self-attn + FFN, each Add & Norm'd), stacked N deep
 
 import math
 

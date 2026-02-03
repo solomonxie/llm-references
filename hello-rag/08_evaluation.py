@@ -9,6 +9,7 @@
 #     failed instead of just "the final answer was wrong")
 #   - generation: given that context, did the answer actually contain the
 #     expected fact?
+# Step 8: A minimal labeled eval set, checking retrieval hit-rate and generation accuracy separately
 
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate

@@ -17,6 +17,7 @@
 # steps 1-8 for readability, to batched (batch, seq_len, d_model) ones —
 # training on one example at a time would work but wastes the GPU/CPU's
 # ability to do many examples' matmuls at once.
+# Step 9: Actually training it (teacher forcing, batched) on a toy "reverse this sequence" task, then greedy-decoding for real
 
 import math
 

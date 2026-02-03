@@ -12,6 +12,7 @@
 # mean "this sequence's true next-token prediction" for every row after
 # padding — with right-padding, the last column would be a pad position for
 # any shorter sequence instead of its actual last real token.
+# Step 6: Left-padding + attention_mask + position_ids to decode several prompts in one batch
 
 import time
 

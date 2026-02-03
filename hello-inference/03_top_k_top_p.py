@@ -9,6 +9,7 @@
 #   - top-p: keep the smallest set of tokens whose probabilities sum to >= p
 #     (adapts to the distribution's shape — a confident distribution keeps
 #     few tokens, a flat/uncertain one keeps more)
+# Step 3: Top-k and nucleus (top-p) filtering before sampling
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer

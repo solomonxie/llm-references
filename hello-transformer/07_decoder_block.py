@@ -11,6 +11,7 @@
 #   - a second attention sublayer, *cross*-attention: queries come from the
 #     decoder, but keys/values come from the encoder's output. This is how
 #     the decoder actually looks at the source sequence.
+# Step 7: Causal self-attention mask + cross-attention to the encoder's output
 
 import math
 

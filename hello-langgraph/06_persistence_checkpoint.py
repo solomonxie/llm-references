@@ -8,6 +8,7 @@
 # where the last one left off — even from a different process, if the
 # checkpointer backend is persistent (MemorySaver here is in-process only;
 # SqliteSaver/PostgresSaver are the same interface, durable to disk).
+# Step 6: MemorySaver + thread_id -- state that survives across separate .invoke() calls
 
 from typing import Annotated, TypedDict
 

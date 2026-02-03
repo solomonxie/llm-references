@@ -6,6 +6,7 @@
 # separates message *roles* (system/human/ai), which matters because chat
 # models are trained to treat "the rules" (system) differently from "what the
 # user said" (human).
+# Step 2: ChatPromptTemplate -- reusable prompts with placeholders and message roles
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama

@@ -5,6 +5,7 @@
 # more than: keep a running list of every message so far, and send the whole
 # list back each time. There's no hidden server-side session (Ollama/OpenAI
 # don't remember previous calls) — the client owns history entirely.
+# Step 5: Multi-turn conversation -- history is just a message list you resend
 
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_ollama import ChatOllama

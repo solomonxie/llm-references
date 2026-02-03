@@ -4,6 +4,7 @@
 # treats its input as an unordered *set* of vectors — nothing about it looks
 # at position. So position has to be baked into the vectors themselves,
 # before attention ever runs.
+# Step 2: Sinusoidal positional encoding, added to token embeddings
 
 import math
 
