@@ -1,0 +1,3 @@
+pyobjc-framework-Metal
+pyobjc-framework-Cocoa
+numpy
