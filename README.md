@@ -16,3 +16,17 @@ and lessons learned across projects, kept separate from any one codebase so they
 
 Not fixed yet — add files/folders as material accumulates. Prefer one topic per file over one
 giant document.
+
+### Progressive learning series
+
+Each folder below is a numbered, standalone-runnable series — one script per step, each a full
+copy of the previous step plus one new concept (see each folder's own README for the step table).
+
+| Folder | Topic |
+|---|---|
+| `hello-transformer/` | The Transformer architecture, built from raw tensor ops |
+| `hello-neuralnet/` | Neural nets from a single neuron through backprop, activations, convolution |
+| `hello-inference/` | Decoding strategies and inference mechanics, on a real pretrained model |
+| `hello-langchain/` | LangChain's core abstractions, against a local Ollama model |
+| `hello-langgraph/` | LangGraph's StateGraph mechanics, agents, persistence, human-in-the-loop |
+| `hello-rag/` | Retrieval-Augmented Generation, chunking through hybrid search and evaluation |
