@@ -16,17 +16,17 @@ and lessons learned across projects, kept separate from any one codebase so they
 
 ```
 tokenization
-embeddings
-neural network fundamentals
-transformer architecture
-GPU fundamentals (optional, performance deep-dive)
-inference / decoding mechanics
-retrieval-augmented generation
-fine-tuning (full fine-tune vs. LoRA/QLoRA)
-quantization
-RLHF (reward modeling, PPO, DPO)
-agent loops (tool use, ReAct)
-evaluation
-inference-server mechanics
-speculative decoding
+   -> embeddings
+   -> neural network fundamentals
+   -> transformer architecture
+   -> GPU fundamentals (optional, performance deep-dive)
+   -> inference / decoding mechanics
+   -> retrieval-augmented generation
+   -> fine-tuning (full fine-tune vs. LoRA/QLoRA)
+   -> quantization
+   -> RLHF (reward modeling, PPO, DPO)
+   -> agent loops (tool use, ReAct)
+   -> evaluation
+   -> inference-server mechanics
+   -> speculative decoding
 ```
