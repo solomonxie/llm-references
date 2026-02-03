@@ -6,17 +6,6 @@ or cost.
 
 Each file is a complete, standalone, runnable script.
 
-| File | Demonstrates |
-|---|---|
-| `01_llm_call.py` | `ChatOllama.invoke()` — the base chat-model interface every provider implements |
-| `02_prompt_template.py` | `ChatPromptTemplate` — reusable prompts with placeholders and message roles |
-| `03_lcel_chain.py` | LCEL: piping `prompt \| llm \| output_parser` into one composed `Runnable` |
-| `04_structured_output.py` | `.with_structured_output(PydanticModel)` — typed data out, not prose |
-| `05_memory_conversation.py` | Multi-turn conversation — history is just a message list you resend |
-| `06_tools_function_calling.py` | `@tool` + `.bind_tools()` — the model requests calls, your code executes them |
-| `07_rag_retrieval.py` | Embeddings + an in-memory vector store — grounding answers in your own docs |
-| `08_agent_loop.py` | The tool-calling loop from `06`, run repeatedly until there's a final answer (ReAct) |
-
 ## Setup
 
 ```sh

@@ -7,16 +7,6 @@ steps 4-7 use those same pieces as graph nodes instead of a hand-managed loop.
 
 Each file is a complete, standalone, runnable script.
 
-| File | Demonstrates |
-|---|---|
-| `01_state_graph_basics.py` | `StateGraph`: typed state, nodes as functions, edges — no LLM involved |
-| `02_conditional_edges.py` | Branching — routing to a different next node based on state |
-| `03_cycles_loop.py` | Looping — a conditional edge that routes backward, not just forward |
-| `04_llm_node.py` | A chat-model call as one node among plain-Python ones |
-| `05_prebuilt_react_agent.py` | `create_agent` — steps 3+4's loop-until-no-tool-calls, prebuilt |
-| `06_persistence_checkpoint.py` | `MemorySaver` + `thread_id` — state that survives across separate `.invoke()` calls |
-| `07_human_in_the_loop.py` | `interrupt()` / `Command(resume=...)` — pausing a graph for human approval, then continuing |
-
 ## Setup
 
 ```sh
