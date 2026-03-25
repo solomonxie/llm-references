@@ -26,7 +26,11 @@ tokenization
    -> quantization
    -> RLHF (reward modeling, PPO, DPO)
    -> agent loops (tool use, ReAct)
+   -> vendor agent SDKs (Claude Agent SDK, OpenAI Agents SDK, Google ADK)
+   -> building a minimal coding agent (Pi)
+   -> sandboxing agent-executed code
    -> evaluation
    -> inference-server mechanics
    -> speculative decoding
+   -> durable workflow orchestration (Temporal)
 ```
