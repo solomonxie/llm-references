@@ -19,6 +19,7 @@ tokenization
    -> embeddings
    -> neural network fundamentals
    -> transformer architecture
+   -> LLM pretraining mechanics (training loop, loss curve, sampling)
    -> GPU fundamentals (optional, performance deep-dive)
    -> inference / decoding mechanics
    -> retrieval-augmented generation
