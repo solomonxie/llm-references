@@ -11,13 +11,14 @@ Each file is a complete, standalone, runnable script.
 ## Setup
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-agent-sdk/requirements.txt
 
 export ANTHROPIC_API_KEY=...   # step 1
 export OPENAI_API_KEY=...      # step 2
 export GOOGLE_API_KEY=...      # step 3 (a Gemini API key)
 
-venv/bin/python 01_claude_agent_sdk.py
+venv/bin/python hello-agent-sdk/01_claude_agent_sdk.py
 ```
 
 ## Notes

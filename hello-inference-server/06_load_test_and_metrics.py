@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_load_test_and_metrics.py
+# $ venv/bin/python hello-inference-server/06_load_test_and_metrics.py
 #
 # Goal: the numbers that actually matter when evaluating an inference
 # server -- not just "does it work", but throughput under concurrent load

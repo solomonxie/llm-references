@@ -14,8 +14,9 @@ ollama pull llama3.2:3b               # chat model used in most steps
 ollama pull qwen2.5:7b                # step 8 only — needs more reliable multi-tool-call reasoning
 ollama pull nomic-embed-text          # step 7 only — embeddings
 
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_llm_call.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-langchain/requirements.txt
+venv/bin/python hello-langchain/01_llm_call.py
 ```
 
 ## Notes

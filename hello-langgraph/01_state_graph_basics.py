@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_state_graph_basics.py
+# $ venv/bin/python hello-langgraph/01_state_graph_basics.py
 #
 # Goal: LangGraph's core idea, with no LLM involved at all — it's a graph
 # library first, an LLM-orchestration library second. A graph has:

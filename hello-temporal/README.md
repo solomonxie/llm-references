@@ -17,8 +17,9 @@ temporal server start-dev &
 
 export ANTHROPIC_API_KEY=...     # step 2 only
 
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_hello_world_workflow.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-temporal/requirements.txt
+venv/bin/python hello-temporal/01_hello_world_workflow.py
 ```
 
 Open http://localhost:8233 (the dev server's built-in Web UI) to watch workflow executions,

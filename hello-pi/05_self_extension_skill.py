@@ -1,6 +1,6 @@
-# $ venv/bin/python 05_self_extension_skill.py <session> "<task>"
-# $ venv/bin/python 05_self_extension_skill.py mysession "write yourself a tool that reverses a string, then use it on 'pi'"
-# $ venv/bin/python 05_self_extension_skill.py mysession "use the reverse_string skill on 'again'"   # skill persisted from last run
+# $ venv/bin/python hello-pi/05_self_extension_skill.py <session> "<task>"
+# $ venv/bin/python hello-pi/05_self_extension_skill.py mysession "write yourself a tool that reverses a string, then use it on 'pi'"
+# $ venv/bin/python hello-pi/05_self_extension_skill.py mysession "use the reverse_string skill on 'again'"   # skill persisted from last run
 #
 # Goal: Pi's real power isn't the four built-in tools, it's that
 # extensions can add more -- "software building software". Adds a fifth,

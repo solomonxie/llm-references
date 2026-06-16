@@ -11,8 +11,9 @@ earlier ones rather than importing across numbered files.
 ## Setup
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_fp32_baseline.py   # first run downloads distilgpt2 (~350MB), cached after
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-quantization/requirements.txt
+venv/bin/python hello-quantization/01_fp32_baseline.py   # first run downloads distilgpt2 (~350MB), cached after
 ```
 
 ## Notes

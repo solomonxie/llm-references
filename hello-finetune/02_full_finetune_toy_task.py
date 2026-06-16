@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_full_finetune_toy_task.py
+# $ venv/bin/python hello-finetune/02_full_finetune_toy_task.py
 #
 # Goal: full fine-tuning -- every one of the model's 82M parameters gets a
 # gradient and can move. On a handful of examples this overfits fast (the

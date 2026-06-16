@@ -1,4 +1,4 @@
-# $ venv/bin/python 07_memory_and_multi_turn.py
+# $ venv/bin/python hello-agent/07_memory_and_multi_turn.py
 #
 # Goal: an agent that only remembers the current question forgets tool
 # results and decisions the moment it answers. This step keeps the full

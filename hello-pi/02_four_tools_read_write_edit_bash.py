@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_four_tools_read_write_edit_bash.py
+# $ venv/bin/python hello-pi/02_four_tools_read_write_edit_bash.py
 #
 # Goal: Pi ships exactly four tools -- Read, Write, Edit, Bash -- and
 # nothing else; every other capability (searching, testing, git) is

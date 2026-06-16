@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_deeper_network_backprop.py
+# $ venv/bin/python hello-neuralnet/06_deeper_network_backprop.py
 #
 # Goal: step 2's by-hand backprop, generalized from exactly 2 layers (hardcoded
 # W1/W2) to an arbitrary stack — a `DeepMLP` class holding a LIST of layers,

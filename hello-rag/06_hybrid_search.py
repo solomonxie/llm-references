@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_hybrid_search.py
+# $ venv/bin/python hello-rag/06_hybrid_search.py
 #
 # Goal: pure embedding similarity is surprisingly bad at exact matches —
 # product codes, error codes, people's names, anything where the SPECIFIC

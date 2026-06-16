@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_multi_tool_agent_loop.py
+# $ venv/bin/python hello-agent/05_multi_tool_agent_loop.py
 #
 # Goal: step 4 handled exactly one tool call and stopped. A real agent loop
 # keeps going -- call a tool, feed the result back, let the model decide if

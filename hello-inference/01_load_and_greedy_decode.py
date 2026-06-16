@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_load_and_greedy_decode.py
+# $ venv/bin/python hello-inference/01_load_and_greedy_decode.py
 #
 # Goal: generation, by hand, on a real pretrained model — hello-transformer
 # built the architecture from scratch but never trained anything beyond a

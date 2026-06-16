@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_speculative_loop_full.py
+# $ venv/bin/python hello-speculative-decoding/04_speculative_loop_full.py
 #
 # Goal: wrap step 3's single round into a full generation loop -- draft K,
 # verify with one target call, accept a prefix, resample on the first

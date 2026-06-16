@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_agent_loop_with_tool_calls.py
+# $ venv/bin/python hello-pi/03_agent_loop_with_tool_calls.py
 #
 # Goal: wire step 1's system prompt and step 2's four tools into an actual
 # agentic loop against Claude's native tool-calling API -- send a real

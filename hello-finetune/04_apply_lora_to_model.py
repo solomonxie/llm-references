@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_apply_lora_to_model.py
+# $ venv/bin/python hello-finetune/04_apply_lora_to_model.py
 #
 # Goal: wire step 3's LoRA wrapper into a real model. GPT-2's attention
 # projections (`c_attn`, `c_proj`) are `Conv1D` layers, not `nn.Linear` --

@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_kern_box_default_isolation.py
+# $ venv/bin/python hello-kern/03_kern_box_default_isolation.py
 #
 # Goal: `kern box` -- a real OCI container: its own root filesystem (from
 # an image, via overlay + `pivot_root`), its own PID/mount/network/UTS/IPC

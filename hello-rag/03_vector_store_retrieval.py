@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_vector_store_retrieval.py
+# $ venv/bin/python hello-rag/03_vector_store_retrieval.py
 #
 # Goal: step 2's cosine-similarity loop, generalized into what a "vector
 # store" actually is — a place that holds many (vector, document) pairs and

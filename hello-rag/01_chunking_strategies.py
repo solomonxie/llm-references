@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_chunking_strategies.py
+# $ venv/bin/python hello-rag/01_chunking_strategies.py
 #
 # Goal: before anything can be embedded or retrieved, a document has to be
 # split into chunks — an embedding model has a token limit, and a whole

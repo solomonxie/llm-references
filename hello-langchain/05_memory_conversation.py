@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_memory_conversation.py
+# $ venv/bin/python hello-langchain/05_memory_conversation.py
 #
 # Goal: multi-turn conversation. A chat model call is stateless — it only
 # knows what's in the messages you send it *this call*. "Memory" is nothing

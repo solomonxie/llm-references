@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_plain_chat_loop.py
+# $ venv/bin/python hello-agent/01_plain_chat_loop.py
 #
 # Goal: the baseline every agent loop builds on -- send messages, get a
 # reply, repeat. No tools yet: the model can only answer from what it

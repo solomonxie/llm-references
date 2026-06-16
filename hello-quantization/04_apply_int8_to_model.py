@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_apply_int8_to_model.py
+# $ venv/bin/python hello-quantization/04_apply_int8_to_model.py
 #
 # Goal: apply step 3's quantize/dequantize round-trip to every 2D weight
 # matrix in a real model, in place, and see how much perplexity actually

@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_dpo_from_scratch.py
+# $ venv/bin/python hello-rlhf/05_dpo_from_scratch.py
 #
 # Goal: DPO (Direct Preference Optimization) -- reaches the same place as
 # PPO (step 4) without a separate reward model or an RL rollout loop at

@@ -12,8 +12,9 @@ earlier ones rather than importing across numbered files.
 ## Setup
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_baseline_autoregressive_speed.py   # downloads gpt2 (~500MB) + distilgpt2 (~350MB)
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-speculative-decoding/requirements.txt
+venv/bin/python hello-speculative-decoding/01_baseline_autoregressive_speed.py   # downloads gpt2 (~500MB) + distilgpt2 (~350MB)
 ```
 
 ## Notes

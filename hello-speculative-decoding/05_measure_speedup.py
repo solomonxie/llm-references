@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_measure_speedup.py
+# $ venv/bin/python hello-speculative-decoding/05_measure_speedup.py
 #
 # Goal: put step 1's baseline and step 4's speculative loop head to head,
 # generating the same number of tokens for the same prompt, and measure

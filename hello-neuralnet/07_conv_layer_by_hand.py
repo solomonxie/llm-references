@@ -1,4 +1,4 @@
-# $ venv/bin/python 07_conv_layer_by_hand.py
+# $ venv/bin/python hello-neuralnet/07_conv_layer_by_hand.py
 #
 # Goal: convolution, the operation CNNs are built from — a small learned
 # grid of numbers (a "kernel"/"filter") slides across an image, and at each

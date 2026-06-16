@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_train_on_real_corpus.py
+# $ venv/bin/python hello-embeddings/05_train_on_real_corpus.py
 #
 # Goal: steps 3-4 trained on a dozen hand-written sentences -- too small for
 # the statistics that make word2vec work (many words only ever appear next

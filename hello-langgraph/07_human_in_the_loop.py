@@ -1,4 +1,4 @@
-# $ venv/bin/python 07_human_in_the_loop.py
+# $ venv/bin/python hello-langgraph/07_human_in_the_loop.py
 #
 # Goal: pause a graph mid-run for a human decision, then resume it — for
 # anything too risky to let an LLM do unsupervised (send the email, run the

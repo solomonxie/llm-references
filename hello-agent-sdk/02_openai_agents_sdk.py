@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_openai_agents_sdk.py
+# $ venv/bin/python hello-agent-sdk/02_openai_agents_sdk.py
 #
 # Goal: the same weather-tool task, this time through OpenAI's Agents SDK.
 # Contrast with step 1: tools are plain Python functions decorated with

@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_react_prompt_from_scratch.py
+# $ venv/bin/python hello-agent/03_react_prompt_from_scratch.py
 #
 # Goal: ReAct (Reason + Act) -- instead of a single tool call, the model
 # interleaves free-text reasoning with actions, in a loop, until it decides

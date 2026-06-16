@@ -10,8 +10,9 @@ earlier ones rather than importing across numbered files.
 ## Setup
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_word_level_tokenizer.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-tokenizer/requirements.txt
+venv/bin/python hello-tokenizer/01_word_level_tokenizer.py
 ```
 
 ## Notes

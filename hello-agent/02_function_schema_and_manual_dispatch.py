@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_function_schema_and_manual_dispatch.py
+# $ venv/bin/python hello-agent/02_function_schema_and_manual_dispatch.py
 #
 # Goal: a "tool" is just a Python function plus a JSON schema describing its
 # name, purpose, and arguments -- the schema is what actually gets shown to
