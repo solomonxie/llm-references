@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_minimal_http_generate.py
+# $ venv/bin/python hello-inference-server/01_minimal_http_generate.py
 #
 # Goal: the simplest possible inference server -- one HTTP endpoint, one
 # request handled at a time, no caching, no concurrency. Every later step

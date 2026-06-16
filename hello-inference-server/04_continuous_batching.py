@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_continuous_batching.py
+# $ venv/bin/python hello-inference-server/04_continuous_batching.py
 #
 # Goal: steps 1-3 handle one request fully before starting the next --
 # fine for a demo, but GPUs (and even CPUs, to a lesser extent) do a batch

@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_compare_abstractions.py
+# $ venv/bin/python hello-agent-sdk/04_compare_abstractions.py
 #
 # Goal: run the same weather-tool task through all three vendor SDKs back
 # to back and print what each required: how a tool is declared, what runs

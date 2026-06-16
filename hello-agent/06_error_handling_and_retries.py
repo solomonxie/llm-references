@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_error_handling_and_retries.py
+# $ venv/bin/python hello-agent/06_error_handling_and_retries.py
 #
 # Goal: step 5's loop assumed every tool call is well-formed. Real models
 # call tools with missing/wrong-typed args, call a tool that doesn't exist,

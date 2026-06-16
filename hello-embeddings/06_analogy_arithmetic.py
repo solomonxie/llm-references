@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_analogy_arithmetic.py
+# $ venv/bin/python hello-embeddings/06_analogy_arithmetic.py
 #
 # Goal: word2vec's famous party trick -- "king - man + woman ~= queen".
 # If the embedding space captures relationships as consistent directions

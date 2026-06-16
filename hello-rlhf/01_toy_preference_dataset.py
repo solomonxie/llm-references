@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_toy_preference_dataset.py
+# $ venv/bin/python hello-rlhf/01_toy_preference_dataset.py
 #
 # Goal: RLHF starts from preference data -- pairs of (chosen, rejected)
 # completions for the same prompt, where "chosen" is preferred by a human

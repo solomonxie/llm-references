@@ -1,4 +1,4 @@
-# $ venv/bin/python 07_huggingface_tokenizers_compare.py
+# $ venv/bin/python hello-tokenizer/07_huggingface_tokenizers_compare.py
 #
 # Goal: put the from-scratch versions (03-06) next to production tokenizers.
 # GPT-2's tokenizer is exactly step 5's byte-level BPE, trained on a huge

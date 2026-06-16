@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_wire_into_agent_tool.py
+# $ venv/bin/python hello-kern/05_wire_into_agent_tool.py
 #
 # Goal: compose steps 2-4 into one run_code_sandboxed() and expose it as a
 # single tool in a real agent loop -- this is the `run_bash` tool from

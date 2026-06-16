@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_loss_curve_and_sampling.py
+# $ venv/bin/python hello-llm-training/04_loss_curve_and_sampling.py
 #
 # Goal: two things every real pretraining run adds on top of step 3's bare
 # loop -- a learning-rate schedule (warmup then cosine decay, instead of a

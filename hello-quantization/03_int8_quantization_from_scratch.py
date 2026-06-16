@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_int8_quantization_from_scratch.py
+# $ venv/bin/python hello-quantization/03_int8_quantization_from_scratch.py
 #
 # Goal: int8 quantization, in isolation, on one weight matrix. The idea:
 # find a scale that maps the weight's value range onto the 8-bit signed

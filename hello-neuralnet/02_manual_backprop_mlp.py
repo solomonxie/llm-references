@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_manual_backprop_mlp.py
+# $ venv/bin/python hello-neuralnet/02_manual_backprop_mlp.py
 #
 # Goal: XOR — the textbook example of why a single neuron (step 1) isn't
 # enough. XOR is NOT linearly separable: no single straight line in the 2D

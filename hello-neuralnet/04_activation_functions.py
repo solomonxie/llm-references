@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_activation_functions.py
+# $ venv/bin/python hello-neuralnet/04_activation_functions.py
 #
 # Goal: why ReLU displaced sigmoid/tanh as the default hidden-layer
 # activation. Backprop (steps 2-3) multiplies each layer's local gradient

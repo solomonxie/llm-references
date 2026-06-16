@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_autograd_equivalent.py
+# $ venv/bin/python hello-neuralnet/03_autograd_equivalent.py
 #
 # Goal: prove step 2's hand-derived gradients were actually right, then
 # never derive them by hand again. Autograd (`loss.backward()`) computes the

@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_minimal_system_prompt.py
+# $ venv/bin/python hello-pi/01_minimal_system_prompt.py
 #
 # Goal: [Pi](https://github.com/badlogic/pi-mono), the coding agent behind
 # OpenClaw, has the shortest system prompt of any known agent -- its whole

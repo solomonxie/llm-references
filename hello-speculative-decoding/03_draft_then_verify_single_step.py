@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_draft_then_verify_single_step.py
+# $ venv/bin/python hello-speculative-decoding/03_draft_then_verify_single_step.py
 #
 # Goal: one full round of speculative decoding's core trick. The draft
 # model proposes K tokens autoregressively (K slow-ish small forward

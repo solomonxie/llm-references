@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_skipgram_negative_sampling.py
+# $ venv/bin/python hello-embeddings/03_skipgram_negative_sampling.py
 #
 # Goal: word2vec's Skip-gram model -- learn a dense vector per word by
 # training it to predict *context* words from a *center* word. Negative

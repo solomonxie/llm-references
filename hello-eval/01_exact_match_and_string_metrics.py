@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_exact_match_and_string_metrics.py
+# $ venv/bin/python hello-eval/01_exact_match_and_string_metrics.py
 #
 # Goal: the cheapest possible way to grade an LLM's output against a
 # reference answer -- string comparison. Exact match is strict (right

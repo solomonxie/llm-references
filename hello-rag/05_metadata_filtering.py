@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_metadata_filtering.py
+# $ venv/bin/python hello-rag/05_metadata_filtering.py
 #
 # Goal: pure similarity search can't express "...but only from THIS
 # source" or "...but only docs newer than X" — semantically-close chunks

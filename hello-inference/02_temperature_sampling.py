@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_temperature_sampling.py
+# $ venv/bin/python hello-inference/02_temperature_sampling.py
 #
 # Goal: fix greedy decoding's biggest flaw — always picking the single
 # highest-probability token makes output deterministic and often bland/

@@ -1,4 +1,4 @@
-# $ venv/bin/python 08_benchmark_quality_speed.py
+# $ venv/bin/python hello-quantization/08_benchmark_quality_speed.py
 #
 # Goal: put every precision from this series in one table -- fp32, fp16,
 # bf16, fake-int8, fake-int4 -- with the three numbers that actually

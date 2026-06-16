@@ -1,4 +1,4 @@
-# $ venv/bin/python 08_evaluation.py
+# $ venv/bin/python hello-rag/08_evaluation.py
 #
 # Goal: "does the RAG pipeline actually work" needs a real, repeatable
 # answer, not eyeballing a few example outputs — the same reason unit tests

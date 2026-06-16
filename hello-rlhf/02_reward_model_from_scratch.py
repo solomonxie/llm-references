@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_reward_model_from_scratch.py
+# $ venv/bin/python hello-rlhf/02_reward_model_from_scratch.py
 #
 # Goal: turn preference pairs into a scalar reward function. The
 # Bradley-Terry model says: P(chosen beats rejected) = sigmoid(r(chosen) -

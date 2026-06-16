@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_streaming_response.py
+# $ venv/bin/python hello-inference-server/02_streaming_response.py
 #
 # Goal: step 1's client waits for the ENTIRE completion before seeing
 # anything -- fine for 8 tokens, unusable for a long response. Streaming

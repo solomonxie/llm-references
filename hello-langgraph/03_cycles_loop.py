@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_cycles_loop.py
+# $ venv/bin/python hello-langgraph/03_cycles_loop.py
 #
 # Goal: a cycle — a conditional edge that can route *backward*, so a node
 # runs again instead of the graph always moving forward to END. This is what

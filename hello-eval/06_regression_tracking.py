@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_regression_tracking.py
+# $ venv/bin/python hello-eval/06_regression_tracking.py
 #
 # Goal: a single eval run tells you today's pass rate; it doesn't tell you
 # whether things got *worse*. Regression tracking stores every run's

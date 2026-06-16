@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_untrusted_security_profile.py
+# $ venv/bin/python hello-kern/04_untrusted_security_profile.py
 #
 # Goal: namespaces (step 3) are userspace-visible boundaries -- a
 # container-escape bug bypasses all of them. kern's `--security-profile

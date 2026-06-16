@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_reward_model_inference.py
+# $ venv/bin/python hello-rlhf/03_reward_model_inference.py
 #
 # Goal: what a trained reward model is actually used for -- scoring a batch
 # of candidate completions (e.g. several samples from a policy) and picking

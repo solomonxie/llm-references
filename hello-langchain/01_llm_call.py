@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_llm_call.py
+# $ venv/bin/python hello-langchain/01_llm_call.py
 #
 # Goal: the simplest possible LangChain call — wrap a running local model
 # (via Ollama) in LangChain's ChatModel interface and invoke it. LangChain's

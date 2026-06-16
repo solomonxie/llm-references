@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_persistent_kv_cache_per_session.py
+# $ venv/bin/python hello-inference-server/03_persistent_kv_cache_per_session.py
 #
 # Goal: a real conversation is a sequence of turns against the SAME growing
 # context. Recomputing that whole context from scratch on every turn (what

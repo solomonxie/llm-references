@@ -10,8 +10,9 @@ earlier ones rather than importing across numbered files.
 ## Setup
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_one_hot_and_cooccurrence.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-embeddings/requirements.txt
+venv/bin/python hello-embeddings/01_one_hot_and_cooccurrence.py
 ```
 
 ## Notes

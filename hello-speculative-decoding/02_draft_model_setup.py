@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_draft_model_setup.py
+# $ venv/bin/python hello-speculative-decoding/02_draft_model_setup.py
 #
 # Goal: speculative decoding needs two models sharing the same tokenizer/
 # vocabulary -- a small, cheap "draft" model that proposes tokens fast but

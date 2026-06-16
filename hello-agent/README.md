@@ -13,8 +13,9 @@ ollama serve &
 ollama pull llama3.2:3b     # steps 1-3
 ollama pull qwen2.5:7b      # steps 5-7 -- needs more reliable multi-step tool reasoning
 
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_plain_chat_loop.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-agent/requirements.txt
+venv/bin/python hello-agent/01_plain_chat_loop.py
 ```
 
 ## Notes

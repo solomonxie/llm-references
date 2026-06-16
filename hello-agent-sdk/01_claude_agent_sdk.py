@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_claude_agent_sdk.py
+# $ venv/bin/python hello-agent-sdk/01_claude_agent_sdk.py
 #
 # Goal: the same one-tool task ("what's the weather in Paris?", answered via
 # a get_weather tool) through Anthropic's official Claude Agent SDK, to see

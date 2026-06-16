@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_word_level_tokenizer.py
+# $ venv/bin/python hello-tokenizer/01_word_level_tokenizer.py
 #
 # Goal: the simplest possible tokenizer — split on whitespace/punctuation,
 # assign each distinct word an id. Shows immediately why this breaks: any

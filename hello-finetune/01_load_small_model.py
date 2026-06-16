@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_load_small_model.py
+# $ venv/bin/python hello-finetune/01_load_small_model.py
 #
 # Goal: baseline behavior before any fine-tuning. distilgpt2 (82M params,
 # a distilled GPT-2) has never seen the made-up facts used throughout this

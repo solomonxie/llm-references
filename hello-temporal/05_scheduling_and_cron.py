@@ -1,5 +1,5 @@
 # $ temporal server start-dev &
-# $ venv/bin/python 05_scheduling_and_cron.py
+# $ venv/bin/python hello-temporal/05_scheduling_and_cron.py
 #
 # Goal: run an agent workflow on a recurring cadence -- a nightly report,
 # a periodic cleanup -- without a client-side cron job of your own.

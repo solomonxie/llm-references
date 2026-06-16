@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_toy_corpus_and_tokenizer.py
+# $ venv/bin/python hello-llm-training/01_toy_corpus_and_tokenizer.py
 #
 # Goal: the raw material every later step trains on. A small, repetitive toy
 # corpus (so a tiny model can plausibly learn its patterns in a few hundred

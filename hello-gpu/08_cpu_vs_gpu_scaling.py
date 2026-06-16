@@ -1,4 +1,4 @@
-# $ venv/bin/python 08_cpu_vs_gpu_scaling.py
+# $ venv/bin/python hello-gpu/08_cpu_vs_gpu_scaling.py
 #
 # Goal: the GPU isn't unconditionally faster — every dispatch pays fixed
 # overhead (driver call, command buffer setup, synchronization) that a CPU

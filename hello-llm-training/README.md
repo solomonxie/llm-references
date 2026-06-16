@@ -12,8 +12,9 @@ earlier ones rather than importing across numbered files.
 ## Setup
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_toy_corpus_and_tokenizer.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-llm-training/requirements.txt
+venv/bin/python hello-llm-training/01_toy_corpus_and_tokenizer.py
 ```
 
 ## Steps

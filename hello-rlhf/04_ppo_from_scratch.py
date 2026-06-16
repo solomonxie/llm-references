@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_ppo_from_scratch.py
+# $ venv/bin/python hello-rlhf/04_ppo_from_scratch.py
 #
 # Goal: PPO (Proximal Policy Optimization) applied to the reward model from
 # steps 2-3. The policy here is a table of per-position logits (not a full

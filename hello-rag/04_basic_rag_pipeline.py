@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_basic_rag_pipeline.py
+# $ venv/bin/python hello-rag/04_basic_rag_pipeline.py
 #
 # Goal: chain steps 1-3 into one real, if small, end-to-end pipeline: chunk
 # a document -> embed each chunk -> index in a vector store -> given a

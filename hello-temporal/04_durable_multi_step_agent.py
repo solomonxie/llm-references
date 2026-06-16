@@ -1,5 +1,5 @@
 # $ temporal server start-dev &
-# $ venv/bin/python 04_durable_multi_step_agent.py
+# $ venv/bin/python hello-temporal/04_durable_multi_step_agent.py
 #
 # Goal: put it together into a durable multi-step agent -- each tool call
 # is its own Activity with its own retry policy, and workflow.query lets

@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_prebuilt_react_agent.py
+# $ venv/bin/python hello-langgraph/05_prebuilt_react_agent.py
 #
 # Goal: `create_agent` (langgraph.prebuilt's older `create_react_agent` is
 # deprecated in favor of this, same idea) — a prebuilt graph that IS steps

@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_one_hot_and_cooccurrence.py
+# $ venv/bin/python hello-embeddings/01_one_hot_and_cooccurrence.py
 #
 # Goal: the starting point every embedding method improves on. A one-hot
 # vector represents a word but carries zero information about meaning --

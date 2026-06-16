@@ -13,8 +13,9 @@ ollama serve &                        # if not already running
 ollama pull llama3.2:3b
 ollama pull nomic-embed-text
 
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_chunking_strategies.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-rag/requirements.txt
+venv/bin/python hello-rag/01_chunking_strategies.py
 ```
 
 ## Notes

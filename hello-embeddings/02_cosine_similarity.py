@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_cosine_similarity.py
+# $ venv/bin/python hello-embeddings/02_cosine_similarity.py
 #
 # Goal: a proper similarity metric for vectors of any origin (co-occurrence
 # rows here, learned embeddings from step 3 on). Cosine similarity measures

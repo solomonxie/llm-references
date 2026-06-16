@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_lora_from_scratch.py
+# $ venv/bin/python hello-finetune/03_lora_from_scratch.py
 #
 # Goal: LoRA (Low-Rank Adaptation) in isolation, no model attached yet. The
 # idea: instead of updating a weight matrix W directly (out_features x

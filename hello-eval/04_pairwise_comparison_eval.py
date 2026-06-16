@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_pairwise_comparison_eval.py
+# $ venv/bin/python hello-eval/04_pairwise_comparison_eval.py
 #
 # Goal: absolute 1-5 scoring (step 3) is notoriously inconsistent between
 # runs -- judges anchor differently depending on what they've seen. Pairwise

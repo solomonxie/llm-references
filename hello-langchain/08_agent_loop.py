@@ -1,4 +1,4 @@
-# $ venv/bin/python 08_agent_loop.py
+# $ venv/bin/python hello-langchain/08_agent_loop.py
 #
 # Goal: an "agent" is nothing magical — it's step 6's tool-calling loop, run
 # repeatedly instead of once. Ask, let the model request zero or more tool

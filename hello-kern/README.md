@@ -17,10 +17,11 @@ VM"); needs unprivileged user namespaces and cgroup v2 (default on most modern d
 curl -fsSL https://raw.githubusercontent.com/getkern/kern/main/install.sh | sh
 kern doctor                      # verifies kernel prerequisites
 
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-kern/requirements.txt
 export ANTHROPIC_API_KEY=...     # step 5 only
 
-venv/bin/python 01_subprocess_no_sandbox.py
+venv/bin/python hello-kern/01_subprocess_no_sandbox.py
 ```
 
 ## Notes

@@ -1,4 +1,4 @@
-# $ venv/bin/python 07_bitsandbytes_compare.py
+# $ venv/bin/python hello-quantization/07_bitsandbytes_compare.py
 #
 # Goal: compare the from-scratch quantization (steps 3-6) against a real
 # production quantization library. `bitsandbytes` does the same conceptual

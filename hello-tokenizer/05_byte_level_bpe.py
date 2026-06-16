@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_byte_level_bpe.py
+# $ venv/bin/python hello-tokenizer/05_byte_level_bpe.py
 #
 # Goal: steps 3-4's BPE still fails on a character never seen in training
 # (an emoji, accented letter, CJK text, ...) -- there's no <unk> escape

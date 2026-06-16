@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_first_kernel_vector_add.py
+# $ venv/bin/python hello-gpu/02_first_kernel_vector_add.py
 #
 # Goal: the full round trip — write a GPU kernel, compile it, run it, read
 # the result. A kernel is a function written from ONE thread's point of

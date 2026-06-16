@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_compare_ppo_vs_dpo.py
+# $ venv/bin/python hello-rlhf/06_compare_ppo_vs_dpo.py
 #
 # Goal: train the same starting policy with step 4's PPO and step 5's DPO,
 # on the same preference data, and compare where each one ends up -- both

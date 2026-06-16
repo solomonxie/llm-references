@@ -11,8 +11,9 @@ Each file is a complete, standalone, runnable script.
 ## Setup
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_device_and_buffers.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-gpu/requirements.txt
+venv/bin/python hello-gpu/01_device_and_buffers.py
 ```
 
 Requires a Mac with Apple Silicon (or any Metal 2+ GPU) — no CUDA/NVIDIA hardware needed, and

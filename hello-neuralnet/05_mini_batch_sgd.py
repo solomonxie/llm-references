@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_mini_batch_sgd.py
+# $ venv/bin/python hello-neuralnet/05_mini_batch_sgd.py
 #
 # Goal: steps 1-3 computed the gradient over the WHOLE dataset every step
 # ("batch" gradient descent) — fine for 4 XOR examples, doesn't scale to

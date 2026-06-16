@@ -1,5 +1,5 @@
 # $ temporal server start-dev &            # local dev server, in another terminal
-# $ venv/bin/python 01_hello_world_workflow.py
+# $ venv/bin/python hello-temporal/01_hello_world_workflow.py
 #
 # Goal: the smallest possible Temporal program -- a Workflow (the durable,
 # replayable orchestration logic) that calls one Activity (the actual
