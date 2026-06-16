@@ -1,4 +1,4 @@
-# $ venv/bin/python hello-gpu/07_atomics_and_race_conditions.py
+# $ venv/bin/python hello-gpu/py_gpu/07_atomics_and_race_conditions.py
 #
 # Goal: what happens without synchronization, made concrete instead of
 # theoretical. Every thread here tries to increment the SAME counter — a
