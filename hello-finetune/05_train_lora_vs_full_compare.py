@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_train_lora_vs_full_compare.py
+# $ venv/bin/python hello-finetune/05_train_lora_vs_full_compare.py
 #
 # Goal: put step 2 (full fine-tune) and step 4's LoRA adapters through the
 # exact same training loop and toy task, then compare trainable parameter

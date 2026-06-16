@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_prompt_template.py
+# $ venv/bin/python hello-langchain/02_prompt_template.py
 #
 # Goal: stop hand-building prompt strings. ChatPromptTemplate holds a prompt
 # with `{placeholders}`, separate from the values that fill them — the

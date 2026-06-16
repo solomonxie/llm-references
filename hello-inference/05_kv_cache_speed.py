@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_kv_cache_speed.py
+# $ venv/bin/python hello-inference/05_kv_cache_speed.py
 #
 # Goal: why real inference servers cache K/V instead of recomputing. Every
 # decode step so far (01-04) recomputes attention over the ENTIRE sequence

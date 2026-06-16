@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_rubric_based_scoring.py
+# $ venv/bin/python hello-eval/02_rubric_based_scoring.py
 #
 # Goal: open-ended answers (no single "reference string" exists) need a
 # different check -- a rubric of pass/fail criteria written by a human,

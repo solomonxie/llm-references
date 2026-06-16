@@ -1,5 +1,5 @@
 # $ temporal server start-dev &
-# $ venv/bin/python 03_signals_human_in_the_loop.py
+# $ venv/bin/python hello-temporal/03_signals_human_in_the_loop.py
 #
 # Goal: an agent workflow that must pause for a human approval before
 # taking an action -- the workflow calls workflow.wait_condition() and

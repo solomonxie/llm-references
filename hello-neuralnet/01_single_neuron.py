@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_single_neuron.py
+# $ venv/bin/python hello-neuralnet/01_single_neuron.py
 #
 # Goal: the smallest possible unit everything else in this folder builds on
 # — one neuron. It computes a weighted sum of its inputs plus a bias, then

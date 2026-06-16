@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_persistence_checkpoint.py
+# $ venv/bin/python hello-langgraph/06_persistence_checkpoint.py
 #
 # Goal: make a graph remember state *between separate .invoke() calls* — the
 # hand-rolled memory in hello-langchain/05_memory_conversation.py kept

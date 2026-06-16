@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_kern_run_resource_limits.py
+# $ venv/bin/python hello-kern/02_kern_run_resource_limits.py
 #
 # Goal: `kern run` -- kern's lightest mode, deliberately *not* a full
 # sandbox. It caps CPU/memory/process resources on the command it runs

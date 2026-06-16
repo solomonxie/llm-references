@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_fp16_bf16_cast.py
+# $ venv/bin/python hello-quantization/02_fp16_bf16_cast.py
 #
 # Goal: the cheapest possible "quantization" -- just cast every weight to a
 # narrower float format. fp16 (5 exponent bits, 10 mantissa bits) and bf16

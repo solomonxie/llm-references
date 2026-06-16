@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_quantized_base_qlora.py
+# $ venv/bin/python hello-finetune/06_quantized_base_qlora.py
 #
 # Goal: QLoRA -- LoRA (steps 3-5) applied on top of a base model whose
 # frozen weights are stored in 4-bit (nf4), not fp32/fp16. The frozen base

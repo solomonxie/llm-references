@@ -1,4 +1,4 @@
-# $ venv/bin/python 08_train_real_digits.py
+# $ venv/bin/python hello-neuralnet/08_train_real_digits.py
 #
 # Goal: everything so far (a neuron, backprop, mini-batches, deeper stacks,
 # convolution) applied to real data instead of a toy 4-point XOR set — 1,797

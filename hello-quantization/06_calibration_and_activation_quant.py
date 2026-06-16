@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_calibration_and_activation_quant.py
+# $ venv/bin/python hello-quantization/06_calibration_and_activation_quant.py
 #
 # Goal: steps 3-5 only quantized weights -- but activations (the values
 # flowing *through* the network) matter too, and their range isn't known

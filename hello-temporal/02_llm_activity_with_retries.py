@@ -1,5 +1,5 @@
 # $ temporal server start-dev &
-# $ venv/bin/python 02_llm_activity_with_retries.py
+# $ venv/bin/python hello-temporal/02_llm_activity_with_retries.py
 #
 # Goal: an Activity that calls a real LLM API -- the kind of call that
 # times out or rate-limits in practice. A RetryPolicy on the activity call

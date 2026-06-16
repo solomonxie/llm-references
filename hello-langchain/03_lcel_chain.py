@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_lcel_chain.py
+# $ venv/bin/python hello-langchain/03_lcel_chain.py
 #
 # Goal: LCEL (LangChain Expression Language) — pipe (`|`) runnables together
 # into one chain, the same way `|` pipes shell commands. `prompt | llm` isn't

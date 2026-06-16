@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_cbow.py
+# $ venv/bin/python hello-embeddings/04_cbow.py
 #
 # Goal: word2vec's other half. CBOW (Continuous Bag of Words) flips
 # Skip-gram's prediction direction -- instead of one center word predicting

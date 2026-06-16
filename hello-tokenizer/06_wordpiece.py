@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_wordpiece.py
+# $ venv/bin/python hello-tokenizer/06_wordpiece.py
 #
 # Goal: WordPiece (used by BERT) is close to BPE but differs in two ways:
 # (1) subword pieces after the first character of a word are marked with a

@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_char_level_tokenizer.py
+# $ venv/bin/python hello-tokenizer/02_char_level_tokenizer.py
 #
 # Goal: the other extreme — tokenize by individual character. No word is
 # ever unseen (the vocab is just "every character that can appear"), but

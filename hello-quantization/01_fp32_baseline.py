@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_fp32_baseline.py
+# $ venv/bin/python hello-quantization/01_fp32_baseline.py
 #
 # Goal: the baseline every later step compares against -- a small model
 # (distilgpt2) in its native fp32 precision. Every weight is a 32-bit

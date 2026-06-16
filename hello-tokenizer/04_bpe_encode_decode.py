@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_bpe_encode_decode.py
+# $ venv/bin/python hello-tokenizer/04_bpe_encode_decode.py
 #
 # Goal: turn the learned merge list from step 3 into an actual encode/decode
 # pair that works on new text — including words never seen during training.

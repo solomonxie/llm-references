@@ -1,4 +1,4 @@
-# $ venv/bin/python 07_rag_retrieval.py
+# $ venv/bin/python hello-langchain/07_rag_retrieval.py
 #
 # Goal: RAG (Retrieval-Augmented Generation) — answer questions using
 # documents the model was never trained on, by *retrieving* relevant ones

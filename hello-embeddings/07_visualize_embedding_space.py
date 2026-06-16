@@ -1,4 +1,4 @@
-# $ venv/bin/python 07_visualize_embedding_space.py
+# $ venv/bin/python hello-embeddings/07_visualize_embedding_space.py
 #
 # Goal: embeddings live in a 32-dimensional space (step 5) -- impossible to
 # look at directly. PCA projects that space down to 2D while preserving as

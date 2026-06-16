@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_native_tool_calling_api.py
+# $ venv/bin/python hello-agent/04_native_tool_calling_api.py
 #
 # Goal: step 2 invented its own JSON-in-the-prompt convention for tool
 # calls. Real tool-calling APIs (OpenAI, Anthropic, and Ollama's own

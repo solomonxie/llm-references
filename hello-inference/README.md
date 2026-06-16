@@ -17,8 +17,9 @@ IS caching (05), by using a small hand-built model instead of GPT-2's internals.
 ## Setup
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_load_and_greedy_decode.py   # first run downloads gpt2 (~500MB), cached after
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-inference/requirements.txt
+venv/bin/python hello-inference/01_load_and_greedy_decode.py   # first run downloads gpt2 (~500MB), cached after
 ```
 
 ## Notes

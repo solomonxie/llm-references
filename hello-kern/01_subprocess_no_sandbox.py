@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_subprocess_no_sandbox.py
+# $ venv/bin/python hello-kern/01_subprocess_no_sandbox.py
 #
 # Goal: the starting point for any "let the agent run code" tool --
 # subprocess with zero isolation. Shows the actual danger: agent-generated

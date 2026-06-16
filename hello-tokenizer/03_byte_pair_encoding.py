@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_byte_pair_encoding.py
+# $ venv/bin/python hello-tokenizer/03_byte_pair_encoding.py
 #
 # Goal: Byte-Pair Encoding (BPE) — start from characters (like step 2), then
 # repeatedly merge the most frequent adjacent pair of symbols into a new

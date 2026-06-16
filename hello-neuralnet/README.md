@@ -10,10 +10,11 @@ Each file is a complete, standalone, runnable script.
 Run any file directly:
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_single_neuron.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-neuralnet/requirements.txt
+venv/bin/python hello-neuralnet/01_single_neuron.py
 # ...
-venv/bin/python 08_train_real_digits.py
+venv/bin/python hello-neuralnet/08_train_real_digits.py
 ```
 
 ## Notes

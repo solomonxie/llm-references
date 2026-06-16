@@ -1,4 +1,4 @@
-# $ venv/bin/python 07_merge_and_export_adapter.py
+# $ venv/bin/python hello-finetune/07_merge_and_export_adapter.py
 #
 # Goal: two different ways to ship a LoRA-tuned model. (1) Merge: fold
 # B @ A * scaling directly into the frozen base weights, producing one

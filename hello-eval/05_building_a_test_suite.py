@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_building_a_test_suite.py
+# $ venv/bin/python hello-eval/05_building_a_test_suite.py
 #
 # Goal: steps 1-4 hard-coded a handful of cases inline. A real eval suite
 # lives in a data file (YAML/JSON) separate from the harness code, so

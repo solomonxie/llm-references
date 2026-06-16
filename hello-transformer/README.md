@@ -11,10 +11,11 @@ read and run on its own.
 Run any file directly:
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_tokenize_embed.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-transformer/requirements.txt
+venv/bin/python hello-transformer/01_tokenize_embed.py
 # ...
-venv/bin/python 09_train_toy_task.py
+venv/bin/python hello-transformer/09_train_toy_task.py
 ```
 
 Steps 1-8 print shapes and intermediate values on made-up/random data — there's nothing to

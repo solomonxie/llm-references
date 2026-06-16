@@ -13,8 +13,9 @@ separate server process or terminal needed.
 ## Setup
 
 ```sh
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_minimal_http_generate.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-inference-server/requirements.txt
+venv/bin/python hello-inference-server/01_minimal_http_generate.py
 ```
 
 ## Notes

@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_conditional_edges.py
+# $ venv/bin/python hello-langgraph/02_conditional_edges.py
 #
 # Goal: branching. A conditional edge routes to a *different* next node
 # depending on the current state, instead of always going to the same one —

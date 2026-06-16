@@ -1,4 +1,4 @@
-# $ venv/bin/python 01_baseline_autoregressive_speed.py
+# $ venv/bin/python hello-speculative-decoding/01_baseline_autoregressive_speed.py
 #
 # Goal: the baseline every later step compares against -- one target-model
 # forward pass per generated token, strictly sequential. This is the

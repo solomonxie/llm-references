@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_tools_function_calling.py
+# $ venv/bin/python hello-langchain/06_tools_function_calling.py
 #
 # Goal: let the model call real code. `@tool` turns a plain Python function
 # into something the model can be told about (name, description, parameter

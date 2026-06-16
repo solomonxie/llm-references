@@ -1,6 +1,6 @@
-# $ venv/bin/python 04_session_persistence.py <session> "<task>"
-# $ venv/bin/python 04_session_persistence.py mysession "create foo.txt with 'x'"
-# $ venv/bin/python 04_session_persistence.py mysession "now read foo.txt back"   # resumes
+# $ venv/bin/python hello-pi/04_session_persistence.py <session> "<task>"
+# $ venv/bin/python hello-pi/04_session_persistence.py mysession "create foo.txt with 'x'"
+# $ venv/bin/python hello-pi/04_session_persistence.py mysession "now read foo.txt back"   # resumes
 #
 # Goal: Pi's extension system can persist state into sessions, so a
 # conversation survives a process restart. Same loop as step 3, but the

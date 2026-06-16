@@ -1,4 +1,4 @@
-# $ venv/bin/python 06_batching.py
+# $ venv/bin/python hello-inference/06_batching.py
 #
 # Goal: generate for several prompts in one forward pass instead of one
 # prompt at a time. A GPU (and, to a lesser extent, a CPU's matmul kernels)

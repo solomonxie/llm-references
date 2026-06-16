@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_llm_as_judge.py
+# $ venv/bin/python hello-eval/03_llm_as_judge.py
 #
 # Goal: rubrics (step 2) only catch what you thought to check for in
 # advance, and can't judge fluency, coherence, or subtle correctness.

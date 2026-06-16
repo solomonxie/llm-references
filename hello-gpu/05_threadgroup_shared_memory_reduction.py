@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_threadgroup_shared_memory_reduction.py
+# $ venv/bin/python hello-gpu/05_threadgroup_shared_memory_reduction.py
 #
 # Goal: threadgroup memory — a small, fast pool of on-chip memory shared by
 # every thread in one threadgroup (step 3), read/write in a few cycles

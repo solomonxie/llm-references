@@ -13,8 +13,9 @@ model -- Pi's minimalism assumes a competent model underneath).
 ```sh
 export ANTHROPIC_API_KEY=...
 
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_minimal_system_prompt.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-pi/requirements.txt
+venv/bin/python hello-pi/01_minimal_system_prompt.py
 ```
 
 ## Notes

@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_training_loop.py
+# $ venv/bin/python hello-llm-training/03_training_loop.py
 #
 # Goal: actually pretrain it. The objective is next-character prediction:
 # for every position in a chunk of corpus, predict the character that comes

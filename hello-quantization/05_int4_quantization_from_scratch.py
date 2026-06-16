@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_int4_quantization_from_scratch.py
+# $ venv/bin/python hello-quantization/05_int4_quantization_from_scratch.py
 #
 # Goal: push step 3's approach further -- 4 bits per weight instead of 8,
 # range [-7, 7] instead of [-127, 127]. Coarser range means more rounding

@@ -1,4 +1,4 @@
-# $ venv/bin/python 07_reranking.py
+# $ venv/bin/python hello-rag/07_reranking.py
 #
 # Goal: embedding similarity is fast (one vector comparison per candidate)
 # but imprecise — it only sees "roughly the same topic," not "actually

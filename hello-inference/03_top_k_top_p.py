@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_top_k_top_p.py
+# $ venv/bin/python hello-inference/03_top_k_top_p.py
 #
 # Goal: temperature alone (step 2) still leaves the *entire* vocabulary
 # eligible to be sampled — at high temperature, even a token with tiny

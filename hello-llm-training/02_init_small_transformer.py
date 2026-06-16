@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_init_small_transformer.py
+# $ venv/bin/python hello-llm-training/02_init_small_transformer.py
 #
 # Goal: the architecture side of pretraining -- a small GPT-style,
 # decoder-only transformer (causal self-attention only, no encoder/cross-

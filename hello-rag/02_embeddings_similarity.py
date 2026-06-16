@@ -1,4 +1,4 @@
-# $ venv/bin/python 02_embeddings_similarity.py
+# $ venv/bin/python hello-rag/02_embeddings_similarity.py
 #
 # Goal: the mechanism retrieval is actually built on. An embedding model
 # turns text into a fixed-size vector such that semantically similar text

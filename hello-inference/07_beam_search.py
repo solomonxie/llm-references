@@ -1,4 +1,4 @@
-# $ venv/bin/python 07_beam_search.py
+# $ venv/bin/python hello-inference/07_beam_search.py
 #
 # Goal: greedy decoding (step 1) picks the single best NEXT token at each
 # step, but the best next token doesn't always lead to the best overall

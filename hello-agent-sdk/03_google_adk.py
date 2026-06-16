@@ -1,4 +1,4 @@
-# $ venv/bin/python 03_google_adk.py
+# $ venv/bin/python hello-agent-sdk/03_google_adk.py
 #
 # Goal: the same weather-tool task through Google's Agent Development Kit.
 # Contrast with steps 1-2: ADK separates the Agent (model + instructions +

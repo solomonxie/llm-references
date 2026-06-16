@@ -13,8 +13,9 @@ earlier ones rather than importing across numbered files.
 ollama serve &
 ollama pull qwen2.5:7b     # steps 3-4 (judge model)
 
-python3 -m venv venv && venv/bin/pip install -r requirements.txt
-venv/bin/python 01_exact_match_and_string_metrics.py
+# from the repo root
+python3 -m venv venv && venv/bin/pip install -r hello-eval/requirements.txt
+venv/bin/python hello-eval/01_exact_match_and_string_metrics.py
 ```
 
 ## Notes

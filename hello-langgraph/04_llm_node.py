@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_llm_node.py
+# $ venv/bin/python hello-langgraph/04_llm_node.py
 #
 # Goal: the first real LLM call, as one node among others — steps 1-3 proved
 # the graph mechanics with plain Python; now a node's "computation" happens

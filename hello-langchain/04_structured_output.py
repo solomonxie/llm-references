@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_structured_output.py
+# $ venv/bin/python hello-langchain/04_structured_output.py
 #
 # Goal: get typed data back instead of prose. `.with_structured_output()`
 # takes a Pydantic model describing the shape you want, converts it to a

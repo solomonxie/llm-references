@@ -1,4 +1,4 @@
-# $ venv/bin/python 04_repetition_penalty.py
+# $ venv/bin/python hello-inference/04_repetition_penalty.py
 #
 # Goal: greedy decoding's classic degenerate failure mode, made visible on
 # purpose, then fixed. Once a phrase repeats, its tokens are (by definition)

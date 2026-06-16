@@ -1,4 +1,4 @@
-# $ venv/bin/python 05_request_queue_and_scheduler.py
+# $ venv/bin/python hello-inference-server/05_request_queue_and_scheduler.py
 #
 # Goal: fix step 4's specific problem -- a static batch waits for its
 # slowest member before ANY new request can join, and a finished member
