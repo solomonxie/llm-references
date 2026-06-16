@@ -1,4 +1,4 @@
-# $ venv/bin/python hello-gpu/04_memory_bandwidth_vs_compute.py
+# $ venv/bin/python hello-gpu/py_gpu/04_memory_bandwidth_vs_compute.py
 #
 # Goal: not every kernel is limited by the same resource. A kernel that
 # moves a lot of data but does little math per element is MEMORY-BOUND — its

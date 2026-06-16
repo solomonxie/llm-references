@@ -2,19 +2,23 @@
 
 Goal: GPU programming fundamentals — the parallel-computing techniques underneath any GPU
 workload, deliberately separate from ML inference/training (see `hello-inference`/`hello-neuralnet`
-for that side). Uses real Metal compute kernels (Apple Silicon's native GPU API, dispatched from
-Python via PyObjC) rather than a framework like PyTorch that hides the kernel/thread/memory model
-this series is specifically about.
+for that side). Uses real Metal compute kernels (Apple Silicon's native GPU API) dispatched from
+Objective-C++ rather than a framework like PyTorch that hides the kernel/thread/memory model this
+series is specifically about. A Python/PyObjC variant of the same eight lessons lives in `py_gpu/`.
 
-Each file is a complete, standalone, runnable script.
+Each file is a complete, standalone, runnable `.mm` (Objective-C++) program.
 
 ## Setup
 
 ```sh
 # from the repo root
-python3 -m venv venv && venv/bin/pip install -r hello-gpu/requirements.txt
-venv/bin/python hello-gpu/01_device_and_buffers.py
+clang++ -std=c++17 -O2 -fobjc-arc -framework Metal -framework Foundation \
+    hello-gpu/01_device_and_buffers.mm -o /tmp/01_device_and_buffers && /tmp/01_device_and_buffers
 ```
+
+Each file's own compile-and-run command is its first line. Objective-C++ (not pure C++) because
+that's literally how Metal ships — `Metal.framework`/`Foundation.framework` are Objective-C APIs;
+no external dependency to vendor, just Xcode's Command Line Tools.
 
 Requires a Mac with Apple Silicon (or any Metal 2+ GPU) — no CUDA/NVIDIA hardware needed, and
 nothing here needs a model download or a running Ollama server.
