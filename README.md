@@ -20,6 +20,7 @@ tokenization
    -> neural network fundamentals
    -> transformer architecture
    -> LLM pretraining mechanics (training loop, loss curve, sampling)
+   -> the same, at its most minimal (Karpathy's microgpt: no tensors, no library)
    -> GPU fundamentals (optional, performance deep-dive)
    -> inference / decoding mechanics
    -> retrieval-augmented generation
