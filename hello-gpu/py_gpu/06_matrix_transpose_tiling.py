@@ -1,4 +1,4 @@
-# $ venv/bin/python hello-gpu/06_matrix_transpose_tiling.py
+# $ venv/bin/python hello-gpu/py_gpu/06_matrix_transpose_tiling.py
 #
 # Goal: memory ACCESS PATTERN matters as much as memory access COUNT. When
 # neighboring threads read/write neighboring addresses, the GPU coalesces

@@ -1,4 +1,4 @@
-# $ venv/bin/python hello-gpu/03_threads_threadgroups_grid.py
+# $ venv/bin/python hello-gpu/py_gpu/03_threads_threadgroups_grid.py
 #
 # Goal: unpack the "grid" / "threadgroup" / "thread" hierarchy step 2 used
 # without explaining. Every dispatch launches a GRID of threads, split into

@@ -1,4 +1,4 @@
-# $ venv/bin/python hello-gpu/01_device_and_buffers.py
+# $ venv/bin/python hello-gpu/py_gpu/01_device_and_buffers.py
 #
 # Goal: the GPU memory model, before any GPU code runs at all. A discrete
 # GPU (most NVIDIA cards) has its own separate VRAM — every array has to be
