@@ -1,34 +1,39 @@
 # hello-kern
 
-Goal: build a sandbox runtime for executing agent-generated code from the actual Linux kernel
-primitives up -- rlimits, mount/network/PID namespaces, then seccomp-bpf syscall filtering --
-instead of reaching for Docker/gVisor/Firecracker/a hosted sandbox API. `hello-pi`'s
-`write_skill` tool execs model-written code with zero isolation; this is what closes that gap.
+Goal: sandbox agent-generated code with [kern](https://github.com/getkern/kern), a real
+rootless container runtime purpose-built for this ("a real, kernel-enforced container in
+~3.5 ms from an OCI image, no daemon, one static binary") -- instead of hand-rolling the
+rlimits/namespaces/seccomp it's built on. `hello-pi`'s `write_skill` tool execs model-written
+code with zero isolation; this is what closes that gap.
 
 Each file is a complete, standalone, runnable script.
 
 ## Setup
 
-**Linux only** -- steps 3-6 use `unshare`/`mount` (util-linux, preinstalled on virtually every
-distro) and unprivileged user namespaces (default-enabled on most distros; check with
-`sysctl kernel.unprivileged_userns_clone` if a step fails with `EPERM`). Steps 1-2 run
-anywhere Python does.
+**Linux/WSL2 only** -- kern has no native macOS binary (its own docs: "macOS requires a Linux
+VM"); needs unprivileged user namespaces and cgroup v2 (default on most modern distros).
 
 ```sh
+curl -fsSL https://raw.githubusercontent.com/getkern/kern/main/install.sh | sh
+kern doctor                      # verifies kernel prerequisites
+
 python3 -m venv venv && venv/bin/pip install -r requirements.txt
-export ANTHROPIC_API_KEY=...     # step 6 only
+export ANTHROPIC_API_KEY=...     # step 5 only
 
 venv/bin/python 01_subprocess_no_sandbox.py
 ```
 
 ## Notes
 
-- Each step adds one isolation layer over the last: rlimits (CPU/memory/process-count caps) ->
-  a private mount namespace (masks a sensitive path) -> network + PID namespaces (no route out,
-  no visibility into other processes) -> seccomp (kernel-enforced syscall denylist, a backstop
-  even if a namespace escape bug existed).
-- Step 5's filter is a *denylist* of specifically dangerous syscalls, not a strict allowlist --
-  enumerating every syscall a Python interpreter's startup needs is realistic for production
-  (trace it with `strace -f -c`) but out of scope here.
-- Step 6 loads rlimits/seccomp in an *inner* stage that runs after the outer `unshare`/`mount`
-  setup, not before -- the filter blocks `mount`, which the setup step still needs.
+- Step 1 is the danger, unsandboxed. Step 2's `kern run` caps CPU/memory/processes but adds
+  no filesystem/network/process boundary -- same leak still works, on purpose, to show that
+  resource limits alone aren't isolation. Step 3's `kern box` is what actually closes it: a
+  full OCI container (own rootfs, own PID/mount/net namespaces), rootless by default, no flags
+  needed for that baseline. Step 4 adds `--security-profile untrusted`'s seccomp allowlist on
+  top -- a kernel-enforced backstop even if a namespace-escape bug existed.
+- Step 5's command is kern's own documented pattern for untrusted/AI-generated code:
+  `kern box job --image ... --security-profile untrusted --memory 256m -v ./job:/w -- python3
+  /w/x.py`. A real integration would more likely use kern's own SDK (`kern-sandbox` on PyPI)
+  instead of shelling out to the CLI, as this file does to keep every flag visible.
+- None of these scripts were run in this repo's own (macOS) dev environment -- kern requires
+  Linux; verify on a Linux host/VM/WSL2 before relying on this series' exact output.

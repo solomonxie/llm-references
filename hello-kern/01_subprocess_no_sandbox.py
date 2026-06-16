@@ -3,7 +3,9 @@
 # Goal: the starting point for any "let the agent run code" tool --
 # subprocess with zero isolation. Shows the actual danger: agent-generated
 # code inherits the full filesystem, network, and process table of the
-# host process. Every later step in this series closes one of these gaps.
+# host process. Every later step in this series closes these gaps using
+# kern (github.com/getkern/kern), a real rootless sandbox runtime, instead
+# of hand-rolling the underlying namespaces/seccomp ourselves.
 # Step 1: run_code() with no sandboxing at all
 
 import subprocess
