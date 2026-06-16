@@ -35,4 +35,6 @@ tokenization
    -> inference-server mechanics
    -> speculative decoding
    -> durable workflow orchestration (Temporal)
+   -> quantum computing fundamentals (optional, unrelated to LLMs -- qubits, gates,
+      entanglement, Grover/Deutsch, then Google Cirq / Microsoft Q# / AWS Braket)
 ```
