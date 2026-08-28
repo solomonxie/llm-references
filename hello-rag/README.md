@@ -6,17 +6,6 @@ models (`nomic-embed-text` for embeddings, `llama3.2:3b` for generation), no API
 
 Each file is a complete, standalone, runnable script.
 
-| File | Demonstrates |
-|---|---|
-| `01_chunking_strategies.py` | Fixed-size vs. sentence-aware vs. overlapping chunking, and why boundaries matter |
-| `02_embeddings_similarity.py` | Cosine similarity by hand — the mechanism retrieval ranks by |
-| `03_vector_store_retrieval.py` | `InMemoryVectorStore` — the general "k nearest vectors" interface |
-| `04_basic_rag_pipeline.py` | Chunk -> embed -> index -> retrieve -> prompt -> generate, end to end |
-| `05_metadata_filtering.py` | Filtering the candidate pool by metadata (source, date, permissions) before/alongside similarity |
-| `06_hybrid_search.py` | Vector + keyword search combined (reciprocal rank fusion) — catches exact matches embeddings miss |
-| `07_reranking.py` | Cheap wide retrieval, then an LLM re-scores/re-sorts the candidates for precision |
-| `08_evaluation.py` | A minimal labeled eval set, checking retrieval hit-rate and generation accuracy separately |
-
 ## Setup
 
 ```sh
