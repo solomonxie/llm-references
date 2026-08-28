@@ -30,3 +30,4 @@ copy of the previous step plus one new concept (see each folder's own README for
 | `hello-langchain/` | LangChain's core abstractions, against a local Ollama model |
 | `hello-langgraph/` | LangGraph's StateGraph mechanics, agents, persistence, human-in-the-loop |
 | `hello-rag/` | Retrieval-Augmented Generation, chunking through hybrid search and evaluation |
+| `hello-gpu/` | GPU programming fundamentals (Metal compute kernels) -- separate from ML inference/training |
