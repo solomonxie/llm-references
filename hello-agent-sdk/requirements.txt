@@ -1,4 +1,0 @@
-claude-agent-sdk
-anyio
-openai-agents
-google-adk
