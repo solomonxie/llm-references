@@ -6,6 +6,7 @@
 # to each document at index time (source, category, date, permission level,
 # ...) lets a query filter the candidate pool BEFORE (or alongside) ranking
 # by similarity, not just after.
+# Step 5: Filtering the candidate pool by metadata (source, date, permissions) before/alongside similarity
 
 from langchain_core.documents import Document
 from langchain_core.vectorstores import InMemoryVectorStore

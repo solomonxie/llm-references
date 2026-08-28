@@ -9,6 +9,7 @@
 #   - T < 1 sharpens the distribution (more confident, closer to greedy)
 #   - T = 1 uses the model's own probabilities, unmodified
 #   - T > 1 flattens it (more random, more likely to pick a low-probability token)
+# Step 2: Scaling logits by temperature before sampling
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer

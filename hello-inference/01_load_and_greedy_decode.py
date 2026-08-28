@@ -7,6 +7,7 @@
 # forward pass produces logits for the NEXT token only, you pick one, append
 # it, and repeat. `model.generate()` (used from here on) does exactly this
 # loop internally — writing it out once here makes it not a black box.
+# Step 1: Loading GPT-2; a by-hand greedy decode loop (argmax, repeat)
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer

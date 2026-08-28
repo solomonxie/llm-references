@@ -5,6 +5,7 @@
 # -> project back to vocabulary logits. This is the exact architecture from
 # "Attention Is All You Need," just at toy scale (d_model=16 instead of 512,
 # 2 layers instead of 6). Nothing here is trained yet — that's step 9.
+# Step 8: Everything wired end to end: embed -> encoder -> decoder -> vocab logits
 
 import math
 
