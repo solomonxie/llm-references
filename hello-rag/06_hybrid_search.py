@@ -7,6 +7,7 @@
 # semantically) even though they're completely different products. Keyword
 # search catches exactly this; hybrid search runs both and combines them, so
 # neither weakness dominates.
+# Step 6: Vector + keyword search combined (reciprocal rank fusion) -- catches exact matches embeddings miss
 
 import math
 from collections import Counter

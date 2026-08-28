@@ -5,6 +5,7 @@
 # question, retrieve the most relevant chunks -> stuff them into a prompt
 # -> generate a grounded answer. Every RAG system, however elaborate, is
 # some version of exactly this pipeline.
+# Step 4: Chunk -> embed -> index -> retrieve -> prompt -> generate, end to end
 
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate

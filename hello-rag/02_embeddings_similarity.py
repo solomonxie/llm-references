@@ -7,6 +7,7 @@
 # direction, 0.0 = orthogonal/unrelated, -1.0 = opposite). Retrieval is
 # nothing more than: embed the query, embed every candidate chunk, rank
 # candidates by cosine similarity to the query.
+# Step 2: Cosine similarity by hand -- the mechanism retrieval ranks by
 
 import math
 

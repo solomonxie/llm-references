@@ -10,6 +10,7 @@
 #     makes deep stacks (step 6) trainable at all — without the residual,
 #     gradients have to flow through every sublayer's transform to reach
 #     early layers; with it, there's always a direct path.
+# Step 5: Position-wise FFN + residual connection + LayerNorm (Add & Norm)
 
 import torch
 

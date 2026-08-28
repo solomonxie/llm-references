@@ -6,6 +6,7 @@
 # far): a graph can loop until some condition holds, which is exactly the
 # shape "retry", "keep refining a draft", or "an agent's think/act loop"
 # need — and is not expressible as a straight-line chain at all.
+# Step 3: Looping -- a conditional edge that routes backward, not just forward
 
 from typing import TypedDict
 

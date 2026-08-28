@@ -6,6 +6,7 @@
 # it's split matters a lot: cutting mid-sentence produces chunks that read as
 # nonsense in isolation and embed poorly (an embedding of a fragment doesn't
 # represent the fragment's actual meaning well).
+# Step 1: Fixed-size vs. sentence-aware vs. overlapping chunking, and why boundaries matter
 
 document = """LangChain is a framework for building applications with large language models. \
 It provides abstractions for prompts, chains, and agents. Retrieval-Augmented Generation, or RAG, \
