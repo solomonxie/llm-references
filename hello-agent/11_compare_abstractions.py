@@ -1,10 +1,10 @@
-# $ venv/bin/python hello-agent-sdk/04_compare_abstractions.py
+# $ venv/bin/python hello-agent/11_compare_abstractions.py
 #
 # Goal: run the same weather-tool task through all three vendor SDKs back
 # to back and print what each required: how a tool is declared, what runs
 # the loop, and how many lines of plumbing it took. Skips any vendor whose
 # API key isn't set rather than failing the whole script.
-# Step 4: Side-by-side comparison across steps 1-3
+# Step 11: Side-by-side comparison across steps 8-10
 
 import os
 import time

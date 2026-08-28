@@ -1,11 +1,11 @@
-# $ venv/bin/python hello-agent-sdk/01_claude_agent_sdk.py
+# $ venv/bin/python hello-agent/08_claude_agent_sdk.py
 #
 # Goal: the same one-tool task ("what's the weather in Paris?", answered via
 # a get_weather tool) through Anthropic's official Claude Agent SDK, to see
-# what a vendor SDK buys you over the raw loop in hello-agent: the agent
-# loop, tool-call parsing/dispatch, and message plumbing are all handled --
-# you declare tools and read back a finished turn.
-# Step 1: A single-tool agent via claude_agent_sdk's query() + in-process
+# what a vendor SDK buys you over the raw loop in steps 1-7: the agent loop,
+# tool-call parsing/dispatch, and message plumbing are all handled -- you
+# declare tools and read back a finished turn.
+# Step 8: A single-tool agent via claude_agent_sdk's query() + in-process
 # MCP tool server
 
 import anyio

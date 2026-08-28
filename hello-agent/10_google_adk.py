@@ -1,11 +1,11 @@
-# $ venv/bin/python hello-agent-sdk/03_google_adk.py
+# $ venv/bin/python hello-agent/10_google_adk.py
 #
 # Goal: the same weather-tool task through Google's Agent Development Kit.
-# Contrast with steps 1-2: ADK separates the Agent (model + instructions +
+# Contrast with steps 8-9: ADK separates the Agent (model + instructions +
 # tools) from a Runner that drives it against a SessionService -- session
 # state is an explicit, swappable dependency rather than hidden inside the
 # call, which matters once an agent needs to persist across turns/processes.
-# Step 3: A single-tool agent via google.adk Agent + Runner + InMemorySessionService
+# Step 10: A single-tool agent via google.adk Agent + Runner + InMemorySessionService
 
 import asyncio
 

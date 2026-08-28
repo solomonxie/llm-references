@@ -1,11 +1,11 @@
-# $ venv/bin/python hello-agent-sdk/02_openai_agents_sdk.py
+# $ venv/bin/python hello-agent/09_openai_agents_sdk.py
 #
 # Goal: the same weather-tool task, this time through OpenAI's Agents SDK.
-# Contrast with step 1: tools are plain Python functions decorated with
+# Contrast with step 8: tools are plain Python functions decorated with
 # @function_tool (schema is inferred from the type hints), and an Agent +
 # Runner pair replaces the mcp-server wiring -- a different shape for the
 # same underlying job.
-# Step 2: A single-tool agent via agents.Agent + Runner.run_sync
+# Step 9: A single-tool agent via agents.Agent + Runner.run_sync
 
 from agents import Agent, Runner, function_tool
 
