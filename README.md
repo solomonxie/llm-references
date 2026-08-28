@@ -28,6 +28,7 @@ copy of the previous step plus one new concept (see each folder's own README for
 | `hello-tokenizer/` | Tokenization from scratch: word/char-level through BPE, byte-level BPE, WordPiece |
 | `hello-embeddings/` | Word vectors from scratch: co-occurrence, Skip-gram/CBOW, analogies, visualization |
 | `hello-agent/` | Tool-calling/ReAct agent loop, raw HTTP against local Ollama, no framework |
+| `hello-eval/` | Grading LLM outputs: string metrics, rubrics, LLM-as-judge, test suites, regression tracking |
 | `hello-neuralnet/` | Neural nets from a single neuron through backprop, activations, convolution |
 | `hello-inference/` | Decoding strategies and inference mechanics, on a real pretrained model |
 | `hello-langchain/` | LangChain's core abstractions, against a local Ollama model |
