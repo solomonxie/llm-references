@@ -8,17 +8,6 @@ this series is specifically about.
 
 Each file is a complete, standalone, runnable script.
 
-| File | Demonstrates |
-|---|---|
-| `01_device_and_buffers.py` | `MTLDevice`/`MTLBuffer` and Apple Silicon's unified-memory model — no kernel yet |
-| `02_first_kernel_vector_add.py` | Writing, compiling, and dispatching a first real kernel |
-| `03_threads_threadgroups_grid.py` | The grid/threadgroup/thread hierarchy, made visible by having each thread report its own indices |
-| `04_memory_bandwidth_vs_compute.py` | Memory-bound vs. compute-bound kernels, benchmarked side by side |
-| `05_threadgroup_shared_memory_reduction.py` | Parallel reduction using threadgroup (shared) memory and a tree-sum pattern |
-| `06_matrix_transpose_tiling.py` | Naive (strided) vs. tiled (coalesced) matrix transpose, benchmarked |
-| `07_atomics_and_race_conditions.py` | A visible race condition (lost updates) vs. an atomic fix |
-| `08_cpu_vs_gpu_scaling.py` | The same workload on CPU vs. GPU across sizes — where the GPU actually wins, and why it isn't unconditional |
-
 ## Setup
 
 ```sh

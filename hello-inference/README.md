@@ -14,16 +14,6 @@ torch/Accelerate combination tested during development, independent of whether i
 that code path (01-04, 06-07 all recompute the full sequence each step) or, where the whole point
 IS caching (05), by using a small hand-built model instead of GPT-2's internals.
 
-| File | Demonstrates |
-|---|---|
-| `01_load_and_greedy_decode.py` | Loading GPT-2; a by-hand greedy decode loop (`argmax`, repeat) |
-| `02_temperature_sampling.py` | Scaling logits by temperature before sampling |
-| `03_top_k_top_p.py` | Top-k and nucleus (top-p) filtering before sampling |
-| `04_repetition_penalty.py` | Fixing greedy's repetition-loop failure mode |
-| `05_kv_cache_speed.py` | Why/how KV-caching speeds up decoding — hand-built model + cache, benchmarked |
-| `06_batching.py` | Left-padding + `attention_mask` + `position_ids` to decode several prompts in one batch |
-| `07_beam_search.py` | Keeping top-k candidate sequences by cumulative log-probability, not just the single best token |
-
 ## Setup
 
 ```sh
